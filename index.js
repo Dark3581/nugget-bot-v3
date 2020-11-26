@@ -17,6 +17,7 @@ const queue = new Map();
 
 client.on("ready", () => {
     console.log("I am online!")
+    client.user.setActivity('Nugget Sex', {type: 'WATCHING'});
 })
 
 client.on("message", async(message) => {
